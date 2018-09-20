@@ -1,0 +1,154 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background: url(../img/blacktop-spr.png) repeat 0 0;
+	position: relative;
+}
+.header-one{
+	width: 100px;
+	height: 35px;
+	background: url(../img/blacktop-spr.png) no-repeat 0 -140px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.header>li{
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	top: 20px;
+	right: 300px;
+	cursor: pointer;
+}
+.header>ul>li{
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 25px;
+	width: 80px;
+	height: 25px;
+	border: 2px solid #3ED2B2;
+	margin: 12px 10px;
+	border-radius: 10px;
+}
+.header>ul{
+	position: absolute;
+	right: 50px;
+}
+.header>ul a{
+	color: white;
+}
+
+
+
+.main{
+	width: 100%;
+	height: 905px;
+	background: url(../images/bg-0001.jpg) no-repeat 50% 0;
+	position: relative;
+	/*opacity: .4;*/
+	
+}
+.main .main-one{
+	position: absolute;
+	top: 120px;
+	left: 350px;
+}
+.main .main-two{
+	position: absolute;
+	top: 90px;	
+	left: 1000px;
+}
+.main .main-two .aa{
+	width: 126px;
+	height: 73px;
+	background: url(../images/flag.png) no-repeat 0 0;
+	cursor: pointer;
+}
+.main .main-two .aa:hover{
+	width: 110px;
+	height: 73px;
+	background: url(../images/flag.png) no-repeat -134px 0;
+	cursor: pointer;
+}
+.main .main-two .bb{
+	width: 126px;
+	height: 62px;
+	background: url(../images/flag.png) no-repeat 0 -72px;
+	cursor: pointer;
+}
+.main .main-two .bb:hover{
+	width: 110px;
+	height: 62px;
+	background: url(../images/flag.png) no-repeat -134px -72px;
+	cursor: pointer;
+}
+.main .main-two .cc{
+	width: 126px;
+	height: 91px;
+	background: url(../images/flag.png) no-repeat 0 -133px;
+	cursor: pointer;
+}
+.main .main-two .cc:hover{
+	width: 110px;
+	height: 62px;
+	background: url(../images/flag.png) no-repeat -134px -134px;
+	cursor: pointer;
+}
+.main .main-three{
+	width: 180px;
+	height: 195px;
+	background: url(../images/tb-s.png) no-repeat -4px 0;
+	position: absolute;
+	top: 500px;
+	left: 240px;
+	cursor: pointer;
+}
+.main .main-three:hover{
+	background-position: -4px -193px;
+}
+.main .main-fore{
+	width: 180px;
+	height: 195px;
+	background: url(../images/tb-s.png) no-repeat -191px 0;
+	position: absolute;
+	top: 500px;
+	left: 420px;
+	cursor: pointer;
+}
+.main .main-fore:hover{
+	background-position: -191px -191px;
+}
+.main .main-five{
+	width: 180px;
+	height: 195px;
+	background: url(../images/tb-s.png) no-repeat -484px 0;
+	position: absolute;
+	top: 500px;
+	right: 420px;
+	cursor: pointer;
+}
+.main .main-five:hover{
+	background-position: -484px -191px;
+}
+.main .main-six{
+	width: 180px;
+	height: 195px;
+	background: url(../images/tb-s.png) no-repeat -670px 0;
+	position: absolute;
+	top: 500px;
+	right: 240px;
+	cursor: pointer;
+}
+.main .main-six:hover{
+	background-position: -670px -191px;
+}
+.main .main-seven{
+	width: 125px;
+	height: 125px;
+	background: url(../images/flag.png) no-repeat -294px 0;
+	position: absolute;
+	top: 550px;
+	right: 605px;
+	cursor: pointer;
+}

@@ -1,0 +1,134 @@
+
+.beijing{
+	width: 100%;
+	height: 1470px;
+	background: url(../images/bg20170524.jpg) no-repeat 50% 0;
+   
+}
+
+/*主体*/
+.main {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	/*background: #ccc;*/
+}
+.main>.main-nav{
+	width: 98%;
+	height: 70px;
+	background: url(../images/eventsspr.png) repeat 0 0;
+	position: absolute;
+	left: 1%;
+}
+.main>.main-nav>ol>li{
+	float: left;
+	font-size: 30px;
+	color: #CCCCCC;
+	line-height: 70px;
+	padding: 0 20px ;
+}
+.main>.main-nav .aa{
+	font-size: 25px;
+	color: #3ED2B2;
+}
+.main>.main-nav>ul>li{
+	width: 100px;
+	float: left;
+	font-size: 15px;
+	color: #CCCCCC;
+	text-align: center;
+	line-height: 70px;
+	padding: 0 20px ;
+	cursor: pointer;
+}
+.main>.main-nav>ul>li:hover{
+	background: #3ED2B2;
+}
+.main>.main-one{
+	position: absolute;
+	top: 80px;
+	left: 8px;
+}
+.main>.main-one>ul>li{
+	float: left;
+	width: 310px;
+	height: 280px;
+	margin: 5px 9.5px;
+	background: white;
+	position: relative;
+	cursor: pointer;
+	
+}
+/*鼠标悬浮*/
+.main>.main-one .shadow{
+	width: 310px;
+	height: 280px;
+	background: url(../images/jingling/gmk.png) repeat 0 0;
+	position: absolute; 
+	display: none;
+}
+.main>.main-one .shadow>li{
+	text-align: center;
+	color: white;	
+}
+/*.main>.main-one .shadow>li a{
+	color: white;	
+}*/
+.main>.main-one .shadow>.aa{
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+}
+.main>.main-one .shadow>.bb{
+	font-size: 13px;
+	margin: 5px 40px;
+}
+.main>.main-one .shadow>.cc{
+	font-size: 16px;
+	position: relative;
+	top: 20px;
+	left: 110px;
+	text-align: center;
+	color: white;
+	/*margin: 0 100px 0 30px;*/
+	cursor: pointer;
+}
+.baba:hover .shadow{
+	display: block;
+}
+
+
+/*鼠标讯悬浮结束*/
+.main>.main-one img{
+	width: 310px;
+	height: 140px;
+}
+.main>.main-one .aaa{
+	font-size: 20px;
+	margin: 10px 10px;
+	color: #3ED2B2;
+}
+.main>.main-one .bbb{
+	font-size: 8px;
+	margin: 0 10px;
+	color: #646473;
+}
+.main>.main-one .ccc{
+	font-size: 12px;
+	margin: 5px 10px;
+	color: #313140;
+}
+.main .more{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px ;
+	background: #3ED2B2;
+	position: absolute;
+	cursor: pointer;
+	bottom: 0px;
+	left: 47%;
+}
+.main .more:hover {
+	box-shadow: 0px 0px 2px 5px #414449;
+	}

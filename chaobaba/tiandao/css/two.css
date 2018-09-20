@@ -1,0 +1,205 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background: url(../img/blacktop-spr.png) repeat 0 0;
+	position: relative;
+}
+.header-one{
+	width: 100px;
+	height: 35px;
+	background: url(../img/blacktop-spr.png) no-repeat 0 -140px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.header>li{
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	top: 20px;
+	right: 300px;
+	cursor: pointer;
+}
+.header>ul>li{
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 25px;
+	width: 80px;
+	height: 25px;
+	border: 2px solid #3ED2B2;
+	margin: 12px 10px;
+	border-radius: 10px;
+}
+.header>ul{
+	position: absolute;
+	right: 50px;
+}
+.header>ul a{
+	color: white;
+}
+
+
+/*主体*/
+.main{
+	width: 100%;
+	height: 2400px;
+	background: url(../img/未标题-1.jpg) no-repeat 50% 0;
+	background-size: 130% 100%;
+	position: relative;	
+}
+.main-one{
+	width: 530px;
+	height: 50px;
+	background: url(../img/sp.png) no-repeat -11px -8px;
+	position: absolute;
+	top: 610px;
+	left: 240px;
+}
+.main>ul{
+	position: absolute;
+	top: 850px;
+	left: 180px;
+}
+.main>ul>.aa{
+	width: 250px;
+	height: 60px;
+	background: url(../img/sp.png) no-repeat -23px -74px;
+}
+.main>ul>li{
+	color: #3763AA;
+	font-size: 16px;
+}
+.main>.bb{
+	width: 139px;
+	height: 38px;
+	background: url(../img/check.png) no-repeat 0 0;
+	position: absolute;
+	right: 180px;
+	top: 950px;
+	cursor: pointer;
+}
+.main>.main-two{
+	position: absolute;
+	width: 1002px;
+	height: 406px;
+	background: url(../img/bga.png) no-repeat 0 0;
+	left: 180px;
+	top: 1000px;
+}
+.main>.main-two>ol{
+	position: relative;
+}
+.main>.main-two .one{
+	width: 500px;
+	height: 36px;
+	background: url(../img/sp.png) no-repeat -28px -242px;
+	position: absolute;
+	top: 70px;
+	left: 250px;
+}
+.main>.main-two .two{
+	width: 603px;
+	height: 26px;
+	background: url(../img/sp.png) no-repeat -40px -379px;
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+.main>.main-two .three{
+	width: 275px;
+	height: 75px;
+	background: url(../img/sp.png) no-repeat -662px -359px;
+	position: absolute;
+	top: 280px;
+	left: 360px;
+	cursor: pointer;
+}
+.main .cc{
+	width: 319px;
+	height: 60px;
+	background: url(../img/sp.png) no-repeat -312px -78px;
+	position: absolute;
+	left: 180px;
+	top: 1430px;
+}
+.main>.daqu{
+	width: 1000px;
+	height: 90px;
+	background: url(../img/未标题-1111.jpg) no-repeat 0 0;
+	position: absolute;
+	left: 180px;
+	top: 1500px;
+	z-index: 9;
+}
+.main>.daqu>li{
+	float: left;
+	width: 141px;
+	height: 90px;
+	padding: 0 0.7px;
+	cursor: pointer;
+}
+.main>.daqu img{
+	padding: 0 0.7px;
+	display: none;
+}
+.aaa:hover .aaaa{
+	display: block;
+}
+.bbb:hover .bbbb{
+	display: block;
+}
+.ccc:hover .cccc{
+	display: block;
+}
+.ddd:hover .dddd{
+	display: block;
+}
+.eee:hover .eeee{
+	display: block;
+}
+.fff:hover .ffff{
+	display: block;
+}
+.ggg:hover .gggg{
+	display: block;
+}
+.main>.main-three{
+	width: 1000px;
+	height: 624px;
+	background: url(../img/bgb.jpg);
+	position: absolute;
+	left: 180px;
+	top: 1500px;
+}
+.main .main-three-one{
+	width: 920px;
+	height: 27px;
+	background: url(../img/sp.png) no-repeat 0 -314px;
+	margin-top: 110px;
+	margin-left: 50px ;	
+}
+.main>.main-three>ul{
+	position: relative;
+	top: 20px;
+	left: 35px;
+}
+.main>.main-three>ul>li{
+	float: left;
+	padding-top: 15px ;
+}
+.main-end{
+	position: absolute;
+	top: 2150px;
+	left: 180px;
+}
+.main-end .end{
+	width: 320px;
+	height: 60px;
+	background: url(../img/sp.png) no-repeat -19px -154px;
+}
+.main-end>li{
+	color: #3763AA;
+	font-size: 16px;
+	padding: 3px 0;
+}

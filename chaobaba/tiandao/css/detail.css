@@ -1,0 +1,25 @@
+.main{
+	width: 100%;
+	height: 600px;
+	background: #CCCCCC;
+}
+.container{
+	height: 100%;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	background: url(../images/ly-3.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.content span{
+	color: #282A29;
+	font-size: 12px;
+}
+.content .box{
+	text-align: center;
+}
+.content .text{
+	text-align: center;
+	color: #000000;
+}

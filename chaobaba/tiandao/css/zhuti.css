@@ -1,0 +1,193 @@
+body{
+	overflow: hidden;
+}
+/*头部导航*/
+.header{
+	width: 100%;
+	height: 100px;
+	/*background: url(../images/jingling/gmk.png) repeat 0 0;*/
+	background: #414449;
+	box-shadow: 0px 0px 1px 8px black;
+	position: relative;
+	z-index: 10;
+}
+.header>.logo{
+	width: 200px;
+	height: 67px;
+	background: url(../images/jingling/nav-copy.png) no-repeat 0 0;
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+.header a{
+	color: black;
+}
+.header .i{
+	position: absolute;
+	left: 450px;
+}
+.header .i>li{
+	float: left;	
+}
+.header .i>li>a{
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 100px;
+	font-size: 20px;
+}
+.header .i>li:hover{
+    background: #282A29;
+}
+
+
+/*<!--整屏滑动-->*/
+.screen{
+	width: 100%;
+	background: antiquewhite;
+	position: relative;
+}
+.screen ul{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.screen li{
+	width: 100%;
+	background: url(../images/bg-2.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+/*第一屏*/
+.screen .screen-one{
+	width: 100%;
+	height: 450px;
+	/*border: 2px solid red;*/
+	position: relative;
+	top: 30px;
+}
+.screen .screen-one>ol{
+	position: relative;
+	left: 100px;
+	float: left;
+	color: white;
+	font-size: 40px;
+	margin: 10px 10px;
+}
+.screen .screen-one .aa{
+	color: #CFAE69;
+}
+.screen .screen-one .bb{
+	width: 622px;
+	height: 350px;
+	background: url(../images/bg-uts.jpg) no-repeat 0 0;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+.screen .screen-one .bb>img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.screen .screen-one .cc{
+	color: #CFAE69;
+	font-size: 70px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+.screen .screen-one .dd{
+	color: #0C8ED9;
+	font-size: 20px;
+	position: absolute;
+	top: 110px;
+	left: 30px;
+}
+.screen .screen-one .ee{
+	width: 330px;
+	color: #707D8F;
+	font-size: 15px;
+	position: absolute;
+	top: 140px;
+	left: 30px;
+}
+.screen .screen-one .ff{
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	bottom: 80px;
+	left: 30px;
+}
+.screen .screen-one .gg{
+	width: 80px;
+	height: 20px;
+	background: #CFAE69;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	bottom: 25px;
+	left: 30px;
+}
+.screen .screen-one .bb i{
+	width: 40px;
+	height: 40px;
+	background: url(../images/jingling/spr-2.png) no-repeat 0 -67px;
+	position: absolute;
+	top: 50px;
+	left: 190px;
+}
+.screen .screen-one .bb p{
+	font-size: 25px;
+	color: #CFAE69;
+	/*background: url(../images/jingling/spr-2.png) no-repeat 0 0;*/
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+}
+.screen .screen-one .bahuang{
+	position: absolute;
+	top: 100px;
+	left: 722px;
+}
+.screen .screen-one .bahuang>ol{
+	float: left;
+	width: 63px;
+	height: 350px;
+	/*border: 2px solid red;*/
+	
+}
+/*第二屏*/
+.screen .shendao .screen-one .bb i{
+	background-position: -299px -26px;
+}
+/*第三屏*/
+.screen .taibai .screen-one .bb i{
+	background-position: -257px -26px;
+}
+/*第四屏*/
+.screen .shenwei .screen-one .bb i{
+	background-position: -214px -26px;
+}
+/*第五屏*/
+.screen .tangmen .screen-one .bb i{
+	background-position: -171px -26px;
+}
+/*第六屏*/
+.screen .wudu .screen-one .bb i{
+	background-position: -128px -26px;
+}
+/*第七屏*/
+.screen .tianxiang .screen-one .bb i{
+	background-position: 0px -26px;
+}
+/*第八屏*/
+.screen .zhenwu .screen-one .bb i{
+	background-position: -85px -26px;
+}
+/*第九屏*/
+.screen .gaibang .screen-one .bb i{
+	background-position: -42px -26px;
+}
